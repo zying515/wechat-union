@@ -1,0 +1,131 @@
+
+.lottery-details{
+  width:100%;
+  display: block;
+  overflow: hidden;
+}
+
+.lottery-details .lottery-title {
+    background-color: #fff;
+    border-bottom: 1px solid #e50303;
+    overflow: hidden;
+    padding:18rpx;
+}
+.lottery-details .lottery-title .title-top {
+    width: 100%;
+    display: block;
+    padding-left:18rpx;
+}
+.lottery-details .lottery-title .title-top .number {
+    color: #000;
+    font-weight: 700;
+    font-size: 40rpx;
+    padding-right: 20rpx;
+     display: inline-block;
+    line-height: .5rem;
+}
+.lottery-details .lottery-title .title-top .time {
+    color: #666;
+    font-size: 30rpx;
+     display: inline-block;
+    line-height: .5rem;
+}
+.lottery-details .lottery-title .list {
+    display: block;
+    overflow: hidden;
+    margin: .13rem .2rem 0 0;
+    float: left;
+}
+
+.lottery-details .lottery-title .list .red {
+    width: 60rpx;
+    height: 60rpx;
+    float:left;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    margin-top: 20rpx;
+    margin-left:20rpx;
+    font-size: 30rpx;
+    line-height:50rpx;
+    background-color: #db150b;
+}
+
+.lottery-details .lottery-title .list .blue {
+   width: 60rpx;
+    height: 60rpx;
+    float:left;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    margin-top: 20rpx;
+    margin-left:20rpx;
+    font-size: 30rpx;
+    line-height:50rpx;
+    background-color: #287de6;
+}
+
+.lottery-details .sales-volume {
+    width: 100%;
+    display: block;
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+}
+.lottery-details .sales-volume .sales-text {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 34rpx 0;
+}
+
+.lottery-details .sales-volume .sales-text .money  {
+    display: block;
+    line-height: 30rpx;
+    color: #e50303;
+    font-size: 30rpx;
+}
+.lottery-details .sales-volume .sales-text .text  {
+    display: block;
+    line-height: 56rpx;
+    font-size: 30rpx;
+}
+.lottery-details .details-list {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+    font-size: .22rem;
+}
+.table {
+  border: 0px solid  #333;
+}
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 3rem;
+  align-items: center;
+  font-size:30rpx; 
+}
+.td {
+    width:40%;
+    justify-content: center;
+    text-align: center;
+}
+.bg-w{
+  background: #fff;
+}
+.bg-g{
+  background: #e2e2e2;
+}
+.th {
+  width: 40%;
+  justify-content: center;
+  background: #fff;
+  color: #000;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}

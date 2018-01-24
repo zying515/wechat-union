@@ -1,0 +1,50 @@
+<view class="lottery-details">
+  <view class="lottery-title">
+    <view class="title-top">
+      <view class="number">第{{notice.code}}期</view>
+      <view class="time">{{notice.date}}</view>
+    </view>
+    <view class="list">
+     
+
+      <block wx:for="{{notice.redList}}">
+            <view class= "red">{{item}}</view>
+           
+        </block>
+            <view class= "blue" wx:if="{{notice.buleAwardList}}">{{notice.buleAwardList}}</view>
+    </view>
+  </view>
+  <view class="sales-volume">
+	   <view class="sales-text sales" >
+        <view class="money">{{notice.sales}}</view>
+        <view class="text">本期销量</view>
+     </view>
+     <view class="sales-text jackpot" >
+        <view class="money">{{notice.poolmoney}}</view>
+        <view class="text">奖池金额</view>
+     </view>
+  </view>
+ 
+ <view class="table">
+    <view class="tr bg-w">
+      <view class="th">奖项</view>
+      <view class="th">中奖注数</view>
+      <view class="th ">每注奖金(元)</view>
+    </view>
+   <block wx:for="{{notice.prizegrades}}" >
+    <view class = "tr bg-g" wx:if="{{index % 2 == 0}}"> 
+        <view class="td" wx:if="{{item.type}}">{{item.type}}</view>
+        <view class="td" wx:if="{{item.typenum}}">{{item.typenum}}</view>
+        <view class="td" wx:if="{{item.typemoney}}">{{item.typemoney}}</view>
+    </view>
+    <view class="tr" wx:else >
+        <view class="td" wx:if="{{item.type}}">{{item.type}}</view>
+        <view class="td" wx:if="{{item.typenum}}">{{item.typenum}}</view>
+        <view class="td"  wx:if="{{item.typemoney}}">{{item.typemoney}}</view>
+    </view>
+    </block>
+  </view>
+
+
+
+</view>

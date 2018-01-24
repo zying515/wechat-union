@@ -1,0 +1,11 @@
+/* pages/person/person.wxss */
+
+page{
+  /**background:dodgerblue url(../../images/notice/notice.png) no-repeat fixed bottom;**/
+  background-size:220rpx 220rpx;
+}
+.bg{
+  height:100px;
+  line-height: 100px;
+  text-align:center;
+}

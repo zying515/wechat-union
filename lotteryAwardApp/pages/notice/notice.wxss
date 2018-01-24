@@ -1,0 +1,89 @@
+/* pages/notice/notice.wxss */
+.draw-notice {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.draw-notice .li {
+    width: 100%;
+    height: 155rpx;
+    display: block;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    /**margin: 0rpx 0rpx 0rpx 0rpx;**/
+}
+.draw-notice .li .notice-top {
+    display: block;
+    overflow: hidden;
+   
+}
+
+.draw-notice .li .notice-top .name {
+    color: #373737;
+    font-size: 40rpx;
+    font-weight: 700;
+    padding-left: 20rpx;
+    float: left;
+}
+.draw-notice .li .notice-top .date {
+    color: #666;
+    font-size: 30rpx;
+    float: left;
+    margin: 10rpx 20rpx 0rpx 10rpx;
+}
+
+.draw-notice .li .notice-top .time {
+    color: #aeaeae;
+    font-size: 30rpx;
+    margin-left: 10rpx;
+   /* margin-right: 20px;**/
+    margin-top:10rpx;
+   /** margin: 10rpx 20rpx 0rpx 10rpx;**/
+}
+.draw-notice .li .notice-number{
+  overflow:hidden;
+  float:left;
+  display:block;
+}
+.draw-notice .li .notice-number .red {
+    width: 60rpx;
+    height: 60rpx;
+    float:left;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    margin-top: 20rpx;
+    margin-left:20rpx;
+    font-size: 30rpx;
+    line-height:50rpx;
+    background-color: #db150b;
+}
+
+.draw-notice .li .notice-number .blue {
+   width: 60rpx;
+    height: 60rpx;
+    float:left;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    margin-top: 20rpx;
+    margin-left:20rpx;
+    font-size: 30rpx;
+    line-height:50rpx;
+    background-color: #287de6;
+}
+.draw-notice .li .icon-right{
+    display: block;
+    width: 100%;
+    height: 100%;
+    /**overflow: hidden;
+    position: relative;**/
+}
+.draw-notice .li .icon-right  .icon_right_a{
+  width: 30rpx;
+  height: 32rpx;
+  margin-top: 31rpx;
+  margin-left: 32rpx;
+}

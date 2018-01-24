@@ -1,0 +1,23 @@
+<view class="draw-notice">
+<view class = "li" bindtap="toast" wx:for="{{noticeList}}" wx:for-index="idx" wx:for-item="notice" data-lottery="{{notice.lottery}}" data-period="{{notice.code}}" data-index ="{{idx}}">
+      <view class="notice-top">
+          <view class = "name">  {{notice.name}}</view>
+          <view class = "date">  第{{notice.code}}期</view>
+          <view class = "time">  {{notice.date}} </view>
+        </view>
+       <view class = "notice-number" > 
+          <block wx:for="{{notice.redList}}">
+            <view class= "red">{{item}}</view>
+           
+        </block>
+           <view class= "blue" wx:if="{{notice.buleAwardList}}">{{notice.buleAwardList}}</view>
+        </view>
+        <view class="icon-right">
+           <image  class="icon_right_a" src = "../../../images/notice/right.png"></image>
+        </view>
+    
+</view>
+
+
+</view>
+
